@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>offset.cx</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-top: 10%;            
+        }
+
+        .rainbow {  
+	   /* Font options */
+	  text-shadow: 2px 2px 4px #000000;
+	  
+	   /* Chrome, Safari, Opera */
+	  -webkit-animation: rainbow 5s infinite; 
+	  
+	  /* Internet Explorer */
+	  -ms-animation: rainbow 5s infinite;
+	  
+	  /* Standar Syntax */
+	  animation: rainbow 5s infinite; 
+	}
+
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes rainbow{
+	  	0%{color: red;}	
+		17%{color: orange;}
+		33%{color: yellow;}
+		50%{color: green;}
+		67%{color: blue;}
+		84%{color: purple;}
+	 	100%{color: red;}
+	}
+
+	/* Internet Explorer */
+	@-ms-keyframes rainbow{
+	  	0%{color: red;}	
+		17%{color: orange;}
+		33%{color: yellow;}
+		50%{color: green;}
+		67%{color: blue;}
+		84%{color: purple;}
+	 	100%{color: red;}
+	}
+
+	/* Standar Syntax */
+	@keyframes  rainbow{
+	  	0%{color: red;}	
+		17%{color: orange;}
+		33%{color: yellow;}
+		50%{color: green;}
+		67%{color: blue;}
+		84%{color: purple;}
+	 	100%{color: red;}
+	}
+    </style>
+
+
+    <h1 class="rainbow">persa@offset.cx</h1>
+</body>
+</html>
